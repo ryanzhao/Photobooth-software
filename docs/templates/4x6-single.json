@@ -1,0 +1,20 @@
+﻿{
+  "id": "template_4x6_single",
+  "name": "4x6 Single Hero",
+  "paperSize": "4x6",
+  "exportWidth": 1800,
+  "exportHeight": 1200,
+  "dpi": 300,
+  "backgroundColor": "#0d1117",
+  "bleed": 24,
+  "photoSlots": [
+    { "id": "slot-1", "x": 120, "y": 120, "width": 960, "height": 960, "borderRadius": 36, "fit": "cover" }
+  ],
+  "textBlocks": [
+    { "id": "title", "x": 1120, "y": 180, "width": 520, "text": "Photobooth", "fontSize": 60, "fontFamily": "ui-sans-serif", "fontWeight": 700, "color": "#f8fafc" }
+  ],
+  "assetBlocks": [],
+  "qrBlocks": [
+    { "id": "qr", "x": 1310, "y": 820, "size": 220, "foreground": "#f8fafc", "background": "#0d1117", "text": "https://gallery.example/session/demo" }
+  ]
+}

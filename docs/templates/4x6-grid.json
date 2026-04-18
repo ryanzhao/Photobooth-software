@@ -1,0 +1,19 @@
+﻿{
+  "id": "template_4x6_grid",
+  "name": "4x6 Grid",
+  "paperSize": "4x6",
+  "exportWidth": 1800,
+  "exportHeight": 1200,
+  "dpi": 300,
+  "backgroundColor": "#111827",
+  "bleed": 24,
+  "photoSlots": [
+    { "id": "slot-1", "x": 96, "y": 96, "width": 768, "height": 480, "borderRadius": 24, "fit": "cover" },
+    { "id": "slot-2", "x": 936, "y": 96, "width": 768, "height": 480, "borderRadius": 24, "fit": "cover" },
+    { "id": "slot-3", "x": 96, "y": 624, "width": 768, "height": 480, "borderRadius": 24, "fit": "cover" },
+    { "id": "slot-4", "x": 936, "y": 624, "width": 768, "height": 480, "borderRadius": 24, "fit": "cover" }
+  ],
+  "textBlocks": [],
+  "assetBlocks": [],
+  "qrBlocks": []
+}
