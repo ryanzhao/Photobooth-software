@@ -1,0 +1,272 @@
+{
+  "templates": [
+    {
+      "Id": "grid-4x6-2x3",
+      "Name": "4x6 Portrait Grid 2x3",
+      "PaperSize": "4x6",
+      "Description": "Six-photo 4x6 print with two columns and three rows.",
+      "Orientation": "portrait",
+      "ExportWidth": 1200,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#f7efe1",
+      "BackgroundImagePath": null,
+      "DefaultFrameId": "frame-soft-gold",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 84,
+          "Y": 84,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 582,
+          "Y": 84,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 84,
+          "Y": 618,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 582,
+          "Y": 618,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "4"
+        },
+        {
+          "Id": "slot-5",
+          "X": 84,
+          "Y": 1152,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "5"
+        },
+        {
+          "Id": "slot-6",
+          "X": 582,
+          "Y": 1152,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "6"
+        }
+      ],
+      "TextBlocks": [
+        {
+          "Id": "timestamp",
+          "Text": "Photobooth",
+          "X": 72,
+          "Y": 1710,
+          "Width": 1056,
+          "FontSize": 34,
+          "FontFamily": "Segoe UI Semibold",
+          "ColorHex": "#5b422e",
+          "Alignment": "center",
+          "UseSessionTimestamp": true
+        }
+      ]
+    },
+    {
+      "Id": "grid-4x6-2x2",
+      "Name": "4x6 Portrait Grid 2x2",
+      "PaperSize": "4x6",
+      "Description": "Four-photo 4x6 layout with balanced spacing.",
+      "Orientation": "portrait",
+      "ExportWidth": 1200,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#faf4ea",
+      "BackgroundImagePath": null,
+      "DefaultFrameId": "frame-white-classic",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 96,
+          "Y": 120,
+          "Width": 456,
+          "Height": 684,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 594,
+          "Y": 120,
+          "Width": 456,
+          "Height": 684,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 96,
+          "Y": 846,
+          "Width": 456,
+          "Height": 684,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 594,
+          "Y": 846,
+          "Width": 456,
+          "Height": 684,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "4"
+        }
+      ],
+      "TextBlocks": []
+    },
+    {
+      "Id": "strip-1x3",
+      "Name": "1x3 Strip",
+      "PaperSize": "2x6",
+      "Description": "Three-photo strip with print-ready proportions.",
+      "Orientation": "portrait",
+      "ExportWidth": 900,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#fff8f1",
+      "BackgroundImagePath": null,
+      "DefaultFrameId": "frame-peach-strip",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 78,
+          "Y": 90,
+          "Width": 744,
+          "Height": 450,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 78,
+          "Y": 582,
+          "Width": 744,
+          "Height": 450,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 78,
+          "Y": 1074,
+          "Width": 744,
+          "Height": 450,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        }
+      ],
+      "TextBlocks": []
+    },
+    {
+      "Id": "strip-1x4",
+      "Name": "1x4 Strip",
+      "PaperSize": "2x6",
+      "Description": "Classic four-photo vertical strip.",
+      "Orientation": "portrait",
+      "ExportWidth": 900,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#fdf6ef",
+      "BackgroundImagePath": null,
+      "DefaultFrameId": "frame-soft-gold",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 78,
+          "Y": 70,
+          "Width": 744,
+          "Height": 360,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 78,
+          "Y": 466,
+          "Width": 744,
+          "Height": 360,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 78,
+          "Y": 862,
+          "Width": 744,
+          "Height": 360,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 78,
+          "Y": 1258,
+          "Width": 744,
+          "Height": 360,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "4"
+        }
+      ],
+      "TextBlocks": []
+    }
+  ]
+}

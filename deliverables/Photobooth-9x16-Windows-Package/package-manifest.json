@@ -1,0 +1,8 @@
+﻿{
+    "CreatedAt":  "2026-05-22T12:30:58",
+    "PackagePath":  "D:\\rocket\\photobooth\\deliverables\\Photobooth-9x16-Windows-Package",
+    "App":  "Photobooth.BoothNative.Portrait916",
+    "Launcher":  "Start-Photobooth-9x16.cmd",
+    "Runtime":  "Requires .NET 9 Desktop Runtime x64 unless republished self-contained later",
+    "IncludesDigiCamControl":  true
+}

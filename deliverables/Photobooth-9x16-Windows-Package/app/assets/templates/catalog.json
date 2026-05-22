@@ -1,0 +1,588 @@
+{
+  "templates": [
+    {
+      "Id": "grid-4x6-2x3",
+      "Name": "4x6 Portrait Grid 2x3",
+      "PaperSize": "4x6",
+      "Description": "Six-photo 4x6 print with two columns and three rows.",
+      "Orientation": "portrait",
+      "StyleFamily": "clean-editorial",
+      "ExportWidth": 1200,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#f7efe1",
+      "BackgroundImagePath": null,
+      "DefaultFrameId": "frame-soft-gold",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 84,
+          "Y": 84,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 582,
+          "Y": 84,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 84,
+          "Y": 618,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 582,
+          "Y": 618,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "4"
+        },
+        {
+          "Id": "slot-5",
+          "X": 84,
+          "Y": 1152,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "5"
+        },
+        {
+          "Id": "slot-6",
+          "X": 582,
+          "Y": 1152,
+          "Width": 468,
+          "Height": 504,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "6"
+        }
+      ],
+      "TextBlocks": [
+        {
+          "Id": "timestamp",
+          "Text": "Photobooth",
+          "X": 72,
+          "Y": 1710,
+          "Width": 1056,
+          "FontSize": 34,
+          "FontFamily": "Segoe UI Semibold",
+          "ColorHex": "#5b422e",
+          "Alignment": "center",
+          "UseSessionTimestamp": true
+        }
+      ],
+      "DecorativeLayers": []
+    },
+    {
+      "Id": "grid-4x6-2x2",
+      "Name": "4x6 Portrait Grid 2x2",
+      "PaperSize": "4x6",
+      "Description": "Four-photo 4x6 layout with balanced spacing.",
+      "Orientation": "portrait",
+      "StyleFamily": "clean-editorial",
+      "ExportWidth": 1200,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#faf4ea",
+      "BackgroundImagePath": null,
+      "DefaultFrameId": "frame-white-classic",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 96,
+          "Y": 120,
+          "Width": 456,
+          "Height": 684,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 594,
+          "Y": 120,
+          "Width": 456,
+          "Height": 684,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 96,
+          "Y": 846,
+          "Width": 456,
+          "Height": 684,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 594,
+          "Y": 846,
+          "Width": 456,
+          "Height": 684,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "4"
+        }
+      ],
+      "TextBlocks": [],
+      "DecorativeLayers": []
+    },
+    {
+      "Id": "strip-1x3",
+      "Name": "1x3 Strip",
+      "PaperSize": "2x6",
+      "Description": "Three-photo strip with print-ready proportions.",
+      "Orientation": "portrait",
+      "StyleFamily": "clean-editorial",
+      "ExportWidth": 900,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#fff8f1",
+      "BackgroundImagePath": null,
+      "DefaultFrameId": "frame-peach-strip",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 78,
+          "Y": 90,
+          "Width": 744,
+          "Height": 450,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 78,
+          "Y": 582,
+          "Width": 744,
+          "Height": 450,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 78,
+          "Y": 1074,
+          "Width": 744,
+          "Height": 450,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        }
+      ],
+      "TextBlocks": [],
+      "DecorativeLayers": []
+    },
+    {
+      "Id": "strip-1x4",
+      "Name": "1x4 Strip",
+      "PaperSize": "2x6",
+      "Description": "Classic four-photo vertical strip.",
+      "Orientation": "portrait",
+      "StyleFamily": "clean-editorial",
+      "ExportWidth": 900,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#fdf6ef",
+      "BackgroundImagePath": null,
+      "DefaultFrameId": "frame-soft-gold",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 78,
+          "Y": 70,
+          "Width": 744,
+          "Height": 360,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 78,
+          "Y": 466,
+          "Width": 744,
+          "Height": 360,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 78,
+          "Y": 862,
+          "Width": 744,
+          "Height": 360,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 78,
+          "Y": 1258,
+          "Width": 744,
+          "Height": 360,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "4"
+        }
+      ],
+      "TextBlocks": [],
+      "DecorativeLayers": []
+    },
+    {
+      "Id": "grid-4x6-2x4",
+      "Name": "4x6 Grid 2x4",
+      "PaperSize": "4x6",
+      "Description": "Eight-photo 4x6 layout with two columns and four rows.",
+      "Orientation": "portrait",
+      "StyleFamily": "clean-editorial",
+      "ExportWidth": 1200,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#faf3e7",
+      "BackgroundImagePath": "backgrounds/editorial-cream.png",
+      "DefaultFrameId": "frame-soft-gold",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 96,
+          "Y": 66,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 570,
+          "Y": 66,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 96,
+          "Y": 492,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 570,
+          "Y": 492,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "4"
+        },
+        {
+          "Id": "slot-5",
+          "X": 96,
+          "Y": 918,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "5"
+        },
+        {
+          "Id": "slot-6",
+          "X": 570,
+          "Y": 918,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "6"
+        },
+        {
+          "Id": "slot-7",
+          "X": 96,
+          "Y": 1344,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "7"
+        },
+        {
+          "Id": "slot-8",
+          "X": 570,
+          "Y": 1344,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "8"
+        }
+      ],
+      "TextBlocks": [],
+      "DecorativeLayers": []
+    },
+    {
+      "Id": "collage-editorial-feature",
+      "Name": "Editorial Collage",
+      "PaperSize": "4x6",
+      "Description": "Event-style editorial collage with uneven image blocks.",
+      "Orientation": "portrait",
+      "StyleFamily": "clean-editorial",
+      "ExportWidth": 1200,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#f9f5ef",
+      "BackgroundImagePath": "backgrounds/editorial-cream.png",
+      "DefaultFrameId": "frame-white-classic",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 84,
+          "Y": 92,
+          "Width": 1032,
+          "Height": 620,
+          "Rotation": 0,
+          "BorderRadius": 18,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 84,
+          "Y": 752,
+          "Width": 498,
+          "Height": 458,
+          "Rotation": 0,
+          "BorderRadius": 18,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 618,
+          "Y": 752,
+          "Width": 498,
+          "Height": 458,
+          "Rotation": 0,
+          "BorderRadius": 18,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 84,
+          "Y": 1248,
+          "Width": 1032,
+          "Height": 450,
+          "Rotation": 0,
+          "BorderRadius": 18,
+          "FitMode": "cover",
+          "Label": "4"
+        }
+      ],
+      "TextBlocks": [
+        {
+          "Id": "footer",
+          "Text": "Event memories",
+          "X": 84,
+          "Y": 1722,
+          "Width": 1032,
+          "FontSize": 26,
+          "FontFamily": "Segoe UI Semibold",
+          "ColorHex": "#6f6257",
+          "Alignment": "center",
+          "UseSessionTimestamp": false
+        }
+      ],
+      "DecorativeLayers": []
+    },
+    {
+      "Id": "strip-scrapbook-cute",
+      "Name": "Scrapbook Cute Strip",
+      "PaperSize": "2x6",
+      "Description": "Decorative scrapbook strip with playful stickers and torn-paper mood.",
+      "Orientation": "portrait",
+      "StyleFamily": "scrapbook-cute",
+      "ExportWidth": 900,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#fff6f4",
+      "BackgroundImagePath": "backgrounds/scrapbook-paper.png",
+      "DefaultFrameId": "frame-peach-strip",
+      "FinalOverlayPath": "overlays/torn-edge-strip.png",
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 96,
+          "Y": 122,
+          "Width": 708,
+          "Height": 314,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 96,
+          "Y": 490,
+          "Width": 708,
+          "Height": 314,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 96,
+          "Y": 858,
+          "Width": 708,
+          "Height": 314,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 96,
+          "Y": 1226,
+          "Width": 708,
+          "Height": 314,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "4"
+        }
+      ],
+      "TextBlocks": [
+        {
+          "Id": "caption",
+          "Text": "best day ever",
+          "X": 204,
+          "Y": 1650,
+          "Width": 492,
+          "FontSize": 36,
+          "FontFamily": "Segoe Script",
+          "ColorHex": "#6b4b4b",
+          "Alignment": "center",
+          "UseSessionTimestamp": false
+        }
+      ],
+      "DecorativeLayers": [
+        {
+          "Id": "tape-top",
+          "AssetPath": "stickers/tape-top.png",
+          "X": 292,
+          "Y": 24,
+          "Width": 320,
+          "Height": 116,
+          "Rotation": 0,
+          "Opacity": 0.96,
+          "PlacementMode": "absolute",
+          "ShowInPreview": true
+        },
+        {
+          "Id": "heart",
+          "AssetPath": "stickers/heart-coral.png",
+          "X": 706,
+          "Y": 52,
+          "Width": 98,
+          "Height": 98,
+          "Rotation": -6,
+          "Opacity": 0.92,
+          "PlacementMode": "absolute",
+          "ShowInPreview": true
+        },
+        {
+          "Id": "star",
+          "AssetPath": "stickers/star-yellow.png",
+          "X": 96,
+          "Y": 1582,
+          "Width": 84,
+          "Height": 84,
+          "Rotation": -10,
+          "Opacity": 0.95,
+          "PlacementMode": "absolute",
+          "ShowInPreview": true
+        },
+        {
+          "Id": "doodle",
+          "AssetPath": "stickers/doodle-spark.png",
+          "X": 612,
+          "Y": 1580,
+          "Width": 146,
+          "Height": 120,
+          "Rotation": 8,
+          "Opacity": 0.88,
+          "PlacementMode": "absolute",
+          "ShowInPreview": true
+        }
+      ]
+    }
+  ]
+}

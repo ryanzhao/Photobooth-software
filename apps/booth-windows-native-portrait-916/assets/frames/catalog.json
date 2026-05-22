@@ -1,0 +1,35 @@
+[
+  {
+    "Id": "frame-soft-gold",
+    "Name": "Soft Gold",
+    "Description": "Warm soft gold frame for 4x6 and strip prints.",
+    "OverlayPath": "frame-soft-gold.png",
+    "PreviewPath": "frame-soft-gold.png",
+    "ThumbnailPath": "frame-soft-gold.png",
+    "PreviewOpacity": 0.55,
+    "ApplyMode": 1,
+    "IsBuiltIn": true
+  },
+  {
+    "Id": "frame-white-classic",
+    "Name": "White Classic",
+    "Description": "Clean white frame with subtle inner line.",
+    "OverlayPath": "frame-white-classic.png",
+    "PreviewPath": "frame-white-classic.png",
+    "ThumbnailPath": "frame-white-classic.png",
+    "PreviewOpacity": 0.62,
+    "ApplyMode": 1,
+    "IsBuiltIn": true
+  },
+  {
+    "Id": "frame-peach-strip",
+    "Name": "Peach Strip",
+    "Description": "Light peach strip overlay for portrait strips.",
+    "OverlayPath": "frame-peach-strip.png",
+    "PreviewPath": "frame-peach-strip.png",
+    "ThumbnailPath": "frame-peach-strip.png",
+    "PreviewOpacity": 0.58,
+    "ApplyMode": 1,
+    "IsBuiltIn": true
+  }
+]

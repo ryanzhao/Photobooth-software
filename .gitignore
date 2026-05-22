@@ -41,3 +41,8 @@ apps/booth-windows-native/obj/
 apps/booth-desktop/bin/
 apps/booth-desktop/obj/
 apps/admin-web/.next/
+
+# generated/package runtime data
+apps/booth-windows-native-portrait-916/bin/
+apps/booth-windows-native-portrait-916/obj/
+deliverables/Photobooth-9x16-Windows-Package/app/booth-data/
