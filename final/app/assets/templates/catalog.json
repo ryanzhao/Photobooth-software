@@ -277,6 +277,113 @@
       "DecorativeLayers": []
     },
     {
+      "Id": "grid-4x6-2x4",
+      "Name": "4x6 Grid 2x4",
+      "PaperSize": "4x6",
+      "Description": "Eight-photo 4x6 layout with two columns and four rows.",
+      "Orientation": "portrait",
+      "StyleFamily": "clean-editorial",
+      "ExportWidth": 1200,
+      "ExportHeight": 1800,
+      "Dpi": 300,
+      "BackgroundColorHex": "#faf3e7",
+      "BackgroundImagePath": "backgrounds/editorial-cream.png",
+      "DefaultFrameId": "frame-soft-gold",
+      "FinalOverlayPath": null,
+      "Slots": [
+        {
+          "Id": "slot-1",
+          "X": 96,
+          "Y": 66,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "1"
+        },
+        {
+          "Id": "slot-2",
+          "X": 570,
+          "Y": 66,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "2"
+        },
+        {
+          "Id": "slot-3",
+          "X": 96,
+          "Y": 492,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "3"
+        },
+        {
+          "Id": "slot-4",
+          "X": 570,
+          "Y": 492,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "4"
+        },
+        {
+          "Id": "slot-5",
+          "X": 96,
+          "Y": 918,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "5"
+        },
+        {
+          "Id": "slot-6",
+          "X": 570,
+          "Y": 918,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "6"
+        },
+        {
+          "Id": "slot-7",
+          "X": 96,
+          "Y": 1344,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "7"
+        },
+        {
+          "Id": "slot-8",
+          "X": 570,
+          "Y": 1344,
+          "Width": 438,
+          "Height": 390,
+          "Rotation": 0,
+          "BorderRadius": 22,
+          "FitMode": "cover",
+          "Label": "8"
+        }
+      ],
+      "TextBlocks": [],
+      "DecorativeLayers": []
+    },
+    {
       "Id": "collage-editorial-feature",
       "Name": "Editorial Collage",
       "PaperSize": "4x6",
@@ -476,113 +583,6 @@
           "ShowInPreview": true
         }
       ]
-    },
-    {
-      "Id": "grid-4x6-2x4",
-      "Name": "4x6 Grid 2x4",
-      "PaperSize": "4x6",
-      "Description": "Eight-photo 4x6 layout with two columns and four rows.",
-      "Orientation": "portrait",
-      "StyleFamily": "clean-editorial",
-      "ExportWidth": 1200,
-      "ExportHeight": 1800,
-      "Dpi": 300,
-      "BackgroundColorHex": "#faf3e7",
-      "BackgroundImagePath": "backgrounds/editorial-cream.png",
-      "DefaultFrameId": "frame-soft-gold",
-      "FinalOverlayPath": null,
-      "Slots": [
-        {
-          "Id": "slot-1",
-          "X": 96,
-          "Y": 66,
-          "Width": 438,
-          "Height": 390,
-          "Rotation": 0,
-          "BorderRadius": 22,
-          "FitMode": "cover",
-          "Label": "1"
-        },
-        {
-          "Id": "slot-2",
-          "X": 570,
-          "Y": 66,
-          "Width": 438,
-          "Height": 390,
-          "Rotation": 0,
-          "BorderRadius": 22,
-          "FitMode": "cover",
-          "Label": "2"
-        },
-        {
-          "Id": "slot-3",
-          "X": 96,
-          "Y": 492,
-          "Width": 438,
-          "Height": 390,
-          "Rotation": 0,
-          "BorderRadius": 22,
-          "FitMode": "cover",
-          "Label": "3"
-        },
-        {
-          "Id": "slot-4",
-          "X": 570,
-          "Y": 492,
-          "Width": 438,
-          "Height": 390,
-          "Rotation": 0,
-          "BorderRadius": 22,
-          "FitMode": "cover",
-          "Label": "4"
-        },
-        {
-          "Id": "slot-5",
-          "X": 96,
-          "Y": 918,
-          "Width": 438,
-          "Height": 390,
-          "Rotation": 0,
-          "BorderRadius": 22,
-          "FitMode": "cover",
-          "Label": "5"
-        },
-        {
-          "Id": "slot-6",
-          "X": 570,
-          "Y": 918,
-          "Width": 438,
-          "Height": 390,
-          "Rotation": 0,
-          "BorderRadius": 22,
-          "FitMode": "cover",
-          "Label": "6"
-        },
-        {
-          "Id": "slot-7",
-          "X": 96,
-          "Y": 1344,
-          "Width": 438,
-          "Height": 390,
-          "Rotation": 0,
-          "BorderRadius": 22,
-          "FitMode": "cover",
-          "Label": "7"
-        },
-        {
-          "Id": "slot-8",
-          "X": 570,
-          "Y": 1344,
-          "Width": 438,
-          "Height": 390,
-          "Rotation": 0,
-          "BorderRadius": 22,
-          "FitMode": "cover",
-          "Label": "8"
-        }
-      ],
-      "TextBlocks": [],
-      "DecorativeLayers": []
     }
   ]
 }
