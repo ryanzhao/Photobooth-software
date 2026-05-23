@@ -1,16 +1,13 @@
-﻿Photobooth Windows Native Package
+﻿Photobooth Native Windows Package
 
 Start:
-  Start-Photobooth-Native.cmd
+  Launch-Photobooth-Native.cmd
+
+This package is based on the working build originally launched by:
+  D:\rocket\photobooth\Launch-Photobooth-Native.cmd
 
 Requirements:
   .NET 9 Desktop Runtime
 
-Camera tool:
+Bundled camera tool:
   tools\digitcamcontrol\CameraControl.exe
-
-If camera/live view does not appear:
-  1. Close PhotoBooth and CameraControl.exe.
-  2. Run Check-Runtime.cmd.
-  3. Run tools\digitcamcontrol\CameraControl.exe directly and confirm the camera appears there.
-  4. Start PhotoBooth and click Launch digiCamControl / Start Live.
