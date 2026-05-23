@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@photobooth/core": ["packages/core/src/index.ts"],
+      "@photobooth/core/*": ["packages/core/src/*"],
+      "@photobooth/db": ["packages/db/src/index.ts"],
+      "@photobooth/db/*": ["packages/db/src/*"],
+      "@photobooth/ui": ["packages/ui/src/index.ts"],
+      "@photobooth/ui/*": ["packages/ui/src/*"],
+      "@photobooth/image-engine": ["packages/image-engine/src/index.ts"],
+      "@photobooth/image-engine/*": ["packages/image-engine/src/*"],
+      "@photobooth/camera-core": ["packages/camera-core/src/index.ts"],
+      "@photobooth/camera-core/*": ["packages/camera-core/src/*"],
+      "@photobooth/camera-adapters": ["packages/camera-adapters/src/index.ts"],
+      "@photobooth/camera-adapters/*": ["packages/camera-adapters/src/*"],
+      "@photobooth/print-engine": ["packages/print-engine/src/index.ts"],
+      "@photobooth/print-engine/*": ["packages/print-engine/src/*"]
+    }
+  }
+}

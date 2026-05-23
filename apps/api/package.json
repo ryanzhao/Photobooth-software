@@ -1,0 +1,25 @@
+﻿{
+  "name": "@photobooth/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "build": "wrangler deploy --dry-run",
+    "typecheck": "tsc -p tsconfig.json",
+    "lint": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@photobooth/core": "workspace:*",
+    "@photobooth/db": "workspace:*",
+    "hono": "^4.7.8",
+    "jose": "^6.0.10",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250408.0",
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.11.1"
+  }
+}
