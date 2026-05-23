@@ -1,3 +1,4 @@
 app/booth-data/
+final/app/booth-data/
 *.tmp
 *.log
