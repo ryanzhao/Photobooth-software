@@ -18,6 +18,7 @@ if not exist "%DIGI%" (
 echo Closing old CameraControl and Photo Booth processes...
 taskkill /F /IM CameraControl.exe >nul 2>nul
 taskkill /F /IM Photobooth.BoothNative.exe >nul 2>nul
+taskkill /F /IM ngrok.exe >nul 2>nul
 timeout /t 2 /nobreak >nul
 
 echo Starting digiCamControl from bundled tools folder...
